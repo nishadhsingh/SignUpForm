@@ -168,6 +168,7 @@ html,body
     padding: 2%;
     border-radius: 9%;
     background-color: #596D48;
+    color: aliceblue;
 }
 .login
 {
@@ -180,4 +181,10 @@ html,body
 {
     margin-left: 10%;
     
+}
+
+input:focus
+{
+    border: #c8d3eb 1px;
+    box-shadow: inset;
 }
