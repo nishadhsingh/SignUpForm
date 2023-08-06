@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: norse;
+    src: url(./Norse-Bold.otf);
+}
+.odin-text
+{
+    font-family: norse;
+    font-size: 360%;
+    color: aliceblue;
+    align-self: center;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.container
+{
+    display: flex;
+    flex: 0 1 auto;
+    width:inherit;
+    height: inherit;
+
+
+}
+.side_text
+{
+    height: 28%;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 25%;
+    background-color: black;
+    opacity:0.5;
+   
+    
+}
+
+.side
+{
+    flex-basis: 30%;
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    align-items:first baseline;
+    flex-shrink: 3;
+    
+}
+.main
+{
+    flex-basis: 70%;
+}
+
+.main
+{
+    display: flex;
+    width: 80%;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.top
+{
+    height: 33%;
+}
+
+.middle
+{
+     height: 33%;
+}
+.bottom
+{
+     height: 33%;
+}
+.middle-p
+{
+    font-size:larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+.top
+{
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    
+    
+}
+.top-text-container
+{
+    padding: 10%;
+}
+
+.top_text
+{
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    
+}
+.middle
+{
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset;
+    justify-content: center;
+    flex: 0 1 auto;
+    
+}
+
+.error
+{
+    border: solid red 1px;
+}
+.bottom
+{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.middletext
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    font-weight: bolder;
+    padding-left: 10%;
+}
+.form
+{
+     
+     position: relative;
+     display: grid;
+     grid-template-rows: auto;
+     grid-template-columns: 1fr 1fr;
+     align-self: center;
+     width: 80%;
+     gap:10px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+.from-element
+{
+    padding:2%;
+}
+.button
+{
+    align-self: baseline;
+     margin-left: 10%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    padding: 2%;
+    border-radius: 9%;
+    background-color: #596D48;
+}
+.login
+{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+.bottom-text
+{
+    margin-left: 10%;
+    
+}
